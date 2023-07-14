@@ -1,0 +1,408 @@
+/* Estilos generales */
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/* Estilos para visualización en computadoras */
+@media (min-width: 992px) {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .navbar-brand .navbar-link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .navbar-brand .navbar-link:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar-nav .nav-link {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .navbar-expand-lg .navbar-light.bg-dark {
+    background-color: #343a40;
+  }
+
+  .showcase {
+    background-color: #343a40;
+    padding: 50px;
+  }
+
+  .showcase-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .showcase-content .showcase-text {
+    color: white;
+    width: 50%;
+  }
+
+  .showcase-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .showcase-content p {
+    margin-bottom: 20px;
+  }
+
+  .showcase-content .btn {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .showcase-content .showcase-img {
+    width: 40%;
+    text-align: right;
+  }
+
+  .showcase-content h1 span {
+    color: yellow;
+  }
+
+  .newsletter {
+    background-color: rgb(209, 177, 19);
+    padding: 40px;
+  }
+
+  .newsletter-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .newsletter-content h3 {
+    text-align: left;
+    margin: 0;
+  }
+
+  .newsletter-content .newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter-content .newsletter-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1px;
+    width: 500px;
+  }
+
+  .newsletter-content .newsletter-form button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px;
+    border: none;
+  }
+
+  .learn-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+
+  .learn-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .learn-section-content .learn-img {
+    width: 40%;
+    text-align: left;
+  }
+
+  .learn-section-content .learn-text {
+    width: 50%;
+    text-align: right;
+  }
+
+  .learn-section-content h2 {
+    font-size: 24px;
+    text-align: right;
+  }
+
+  .learn-section-content p {
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white; 
+  }
+
+  .learn-section2 {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+
+  .learn-section-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .learn-section-content2 .learn-text {
+    width: 50%;
+    text-align: left;
+  }
+
+  .learn-section-content2 .learn-text h2 {
+    text-align: left;
+    color: white;
+  }
+
+  .learn-section-content2 .learn-text p {
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .learn-section-content2 .learn-text a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white; 
+    padding: 5px; 
+  }
+
+  .learn-section-content .learn-text a i {
+    color: black; 
+  }
+
+  .no-underline {
+    background-color: white;
+    color: black;
+  }
+
+  .question-section {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .question-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .question-section .accordion {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .question-section .accordion .card {
+    margin-bottom: 10px;
+  }
+
+  .question-section .accordion .card .card-header {
+    background-color: #f8f9fa;
+  }
+
+  .instructors-section {
+    padding: 50px;
+    background-color: rgb(209, 177, 19);
+    text-align: center;
+  }
+
+  .instructors-section h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .instructors-section p {
+    margin-bottom: 20px;
+  }
+
+  .instructors-section .instructor-card {
+    background-color: white;
+    width: 250px; 
+    height: 400px; 
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .instructors-section .instructor-card img {
+    margin-bottom: 10px;
+  }
+
+  .instructors-section .instructor-card .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .instructors-section .instructor-card a {
+    margin-top: 5px;
+  }
+
+  #contact-map-section h2 {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  #contact-map-section ul.list-group {
+    margin-top: 20px;
+  }
+
+  #contact-map-section ul.list-group li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #343a40; 
+    color: white;
+    padding: 20px;
+  }
+}
+
+/* Estilos para visualización en dispositivos móviles */
+@media (max-width: 991px) {
+  .showcase-content .showcase-img {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .showcase-content .showcase-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .showcase-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .showcase-content p {
+    margin-bottom: 10px;
+  }
+
+  .showcase-content .btn {
+    width: 100%;
+  }
+
+  .newsletter-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-content .newsletter-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-content .newsletter-form button {
+    width: 100%;
+  }
+
+  .learn-section-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .learn-section-content .learn-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .learn-section-content .learn-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .learn-section-content h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content p {
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content a {
+    text-align: left;
+  }
+
+  .learn-section-content a i {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content2 .learn-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .learn-section-content2 .learn-text h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content2 .learn-text p {
+    margin-bottom: 10px;
+  }
+
+  .learn-section-content2 .learn-text a {
+    text-align: left;
+  }
+
+  .learn-section-content2 .learn-text a i {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .question-section .accordion {
+    width: 100%;
+  }
+
+  .instructors-section .instructor-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #contact-map-section h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #contact-map-section ul.list-group {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
